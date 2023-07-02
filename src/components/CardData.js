@@ -1,8 +1,8 @@
 export const cardData = [
 
-
+//why wont my image display ?
 {
-    imageUrl: 'src/images/masjid.jpg',
+  imageUrl: './images/masjid.jpg',
     title: 'Ibrahim Durood',
     description: 'A blessed invocation upon the Prophet Ibrahim (peace be upon him).',
     dhikrEnglish: 'O Allah, bless Muhammad and the family of Muhammad as You blessed Ibrahim and the family of Ibrahim. Verily, You are full of praise and majesty.',
