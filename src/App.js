@@ -13,9 +13,9 @@ function App() {
       <QuranCountdown />
 
       <h1 className=' flex items-center justify-center font-bold  text-2xl mt-7  text-white'>Daily Dhikr</h1>
-      <div className='bg-gradient-to-t from-green-300 via-green-600 to-green-900 py-10 px-2'>
-        <div className='flex  justify-center items-center m-auto max-w-[1240px] '>
-          
+      <div className='w-full   bg-gradient-to-t from-green-300 via-green-600 to-green-900 py-10 px-2'>
+        <div className='max-w-[1240px] md:flex m-auto  items-center '>
+         
          {cardData.map((card) => (
           <DhikrCard
             key={card.id}
@@ -26,6 +26,7 @@ function App() {
       ))}
         </div>
         </div>
+       
         <FoundationCard />
    
     </>
