@@ -1,47 +1,34 @@
-.App {
-  text-align: center;
+
+html {
+  font-size: 10px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: rgb(15, 99, 7);
-  max-height: 10px;
+* {
+  box-sizing: border-box;
 }
 
-.logo {
-  font-weight: bold;
-  color:white;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.nav-links li {
-  margin-right: 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
 
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
+
+
+
+
+
+
+
+
 
 .counter-section{
-  height: 550px;
-  border:solid red;
-  background-image: url(/public/images/fahrul-azmi-5K549TS6F08-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
+ 
+  border:1px solid red;
+ 
 }
 .counter-header{
   font-size: 1.5rem;
@@ -63,46 +50,57 @@
 }
 
 /* dhikr card */
-.card-container{
-  display: flex;
- justify-content: center;
- margin-top: 50px;
 
+
+
+
+/* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; 
+ 
+  border:solid 1px rgb(184, 77, 77);
+ 
 }
 
 .card {
- 
-  border: 1px solid #ccc;
+  width: 250px;
+  height: 300px;
+  border: 1px solid #cc0909;
   border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
   
-  margin:0px 10px ;
-  max-width: 300px;
-  
+  margin: 10px;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
 }
 
 .card-image {
-  max-width: 100%;
-  max-height:100%;
+  max-width: 60%;
+  max-height:60%;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 16px;
+  margin:auto;
+  border:1px solid yellow
 }
 
 .card-content {
   text-align: center;
+  
 }
 
 .card-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
-  color:white;
+  color: white;
 }
 
 .card-description {
   margin-bottom: 16px;
-  color:white
-}
-
+  color: white;
+  font-size: 14px;
+} */

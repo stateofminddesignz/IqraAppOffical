@@ -1,8 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import moment from 'moment';
-import DhikrCard from './DhikrCard';
-import {cardData} from './CardData'
+
 
 const QuranCountdown = () => {
     const [countdown, setCountdown] = useState('');
@@ -34,26 +33,11 @@ const QuranCountdown = () => {
     return (
         //i will dynamiclly update the ramadan year at later date
         
-            <div className='counter-section'>
-              <h3 className='counter-header'>Road to Ramadan 1445</h3>
-              <h1 className='quran-counter'>{countdown} Days </h1>
+            <div className='counter-section justify-center text-center'>
+              <h3 className='counter-header text-white'>Road to Ramadan 1445</h3>
+              <h1 className='quran-counter text-white'>{countdown} Days </h1>
               <p className='reflection'>During Ramadan the believers get busy seeking Allah's mercy, forgiveness, and protection from Hellfire.</p>
-               
-               <div className='card-container'>
-               
-               {cardData.map((card) => (
-          <DhikrCard
-            key={card.id}
-            imageUrl={card.imageUrl}
-            title={card.title}
-            description={card.description}
-           
-          />
-        ))}
-
-               </div>
-               
-        </div>
+            </div>
       
         
     )
