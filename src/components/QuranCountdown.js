@@ -33,7 +33,7 @@ const QuranCountdown = () => {
     return (
         //i will dynamiclly update the ramadan year at later date
         
-            <div className='counter-section justify-center text-center'>
+            <div className='counter-section justify-center m-auto text-center w-[400px] md:max-w-[1240px]'>
               <h3 className='counter-header text-white'>Road to Ramadan 1445</h3>
               <h1 className='quran-counter text-white'>{countdown} Days </h1>
               <p className='reflection'>During Ramadan the believers get busy seeking Allah's mercy, forgiveness, and protection from Hellfire.</p>

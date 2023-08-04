@@ -24,7 +24,7 @@ const DhikrCard = ({ imageUrl, title, description }) => {
     //   </div>
 
     <div className="  mt-6  m-auto text-center ">
-      <div className="max-w-[1240px]  md:m-2 m-auto rounded-lg md:w-[200px] w-[400px]  bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700  ">
+      <div className="max-w-[1240px]  md:m-2 m-auto rounded-lg md:w-[200px] w-[300px]  bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700  ">
         <div></div>
 
         <img
